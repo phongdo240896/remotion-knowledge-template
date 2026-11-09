@@ -1,0 +1,22 @@
+{
+  "name": "knowledge-video-template",
+  "version": "1.0.0",
+  "description": "Remotion template for aesthetic knowledge-sharing short videos",
+  "scripts": {
+    "start": "remotion preview src/index.ts",
+    "preview": "remotion preview src/index.ts",
+    "build": "remotion render src/index.ts KnowledgeShort out/video.mp4",
+    "render": "remotion render src/index.ts KnowledgeShort",
+    "render:quick": "remotion render src/index.ts KnowledgeShort out/preview_short.mp4 --frames=0-150",
+    "still": "remotion still src/index.ts KnowledgeShort out/preview.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+---
+description: Remotion Short Video Editor Skill for Aesthetic Knowledge / AI Tutorial style
+globs: src/**/*.tsx, src/**/*.ts
+---
+
+# Remotion Short Video Editor Guidelines (Cursor Rule)
+
+When modifying or creating compositions in this project:
+- Follow vertical 9:16 format (720x1280 or 1080x1920, 30fps).
+- Maintain continuous master audio from speaker (`<Audio>` at root, video muted in layouts).
+- Use `spring()` with `{ damping: 10-14, stiffness: 120-160 }` for lively UI element entrances.
+- Apply `doodleArrow` and `zoom: 1.16` for punchy hooks.
+- Use `highlightWords` in subtitles with `#FFE500` yellow highlight.
+- Validate preview with `npm run render:quick` or `npm start`.
